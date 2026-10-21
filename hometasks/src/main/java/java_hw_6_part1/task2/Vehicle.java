@@ -9,6 +9,7 @@ public class Vehicle {
         this.speed = speed;
     }
     public void move () {
+
         System.out.println("Vehicle is moving at a speed of " + speed + " km/h") ;
     }
     public void stop () {

@@ -9,7 +9,11 @@ public class Car extends Vehicle{
     }
 
     @Override
-    public void move() {
-        System.out.println("Vehicle " + name + " " + "is moving at a speed of " + speed + " km/h with " + passengerCapacity + " number of people");
+    public String toString() {
+        return "Car{" +
+                "passengerCapacity=" + passengerCapacity +
+                ", name='" + name + '\'' +
+                ", speed=" + speed +
+                "} " ;
     }
 }

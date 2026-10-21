@@ -9,6 +9,7 @@ public class Media {
         this.duration = duration;
     }
     public void play () {
+
         System.out.println("Multimedia playback");
     }
 }
